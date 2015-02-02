@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Forward lookup -->
+    <string name="nearby_places">Közeli helyek</string>
+    <string name="people">Személy</string>
+
+    <!-- Number lookup -->
+    <string name="lookup_settings_label">Telefonszám keresése</string>
+    <string name="lookup_settings_description">Ismeretlen telefonszámok keresése</string>
+    <string name="enable_forward_lookup_title">Címkeresés engedélyezése</string>
+    <string name="enable_forward_lookup_summary">Közeli helyek mutatása a tárcsázóban keresés közben</string>
+    <string name="enable_people_lookup_title">Személy keresés</string>
+    <string name="enable_people_lookup_summary">Mutassa ki van online, mikor keresel a tárcsázóban</string>
+    <string name="enable_reverse_lookup_title">Fordított keresés</string>
+    <string name="enable_reverse_lookup_summary">Információ keresése személyekről vagy helyekről ismeretelen számoknál bejöbő hívásoknál</string>
+    <string name="forward_lookup_provider_title">Keresési szolgáltató választása</string>
+    <string name="people_lookup_provider_title">Személy keresési szolgáltató választása</string>
+    <string name="reverse_lookup_provider_title">Visszakeresési szolgáltató választása</string>
+
+    <!-- Chinese Reverse Lookup Provider -->
+    <string name="cyngn_reverse_lookup_provider_package" translatable="false">com.cyngn.chineselocationlookup</string>
+    <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+    <string name="cyngn_reverse_lookup_provider_value" translatable="false">CyngnChinese</string>
+
+    <!-- dialpad t9 search -->
+    <string name="preference_category_t9_dialpad_search">Tárcsázó T9 keresés</string>
+    <string name="t9_search_input_locale">T9 keresés bevitel</string>
+    <string name="t9_search_input_locale_default">Alapértelmezett</string>
+
+    <!-- Description for incoming calls that were blacklisted -->
+    <string name="type_blacklist">Feketlistás hívások</string>
+    <string name="call_log_stats_title">Statisztikák</string>
+    <string name="callStatsDetailTitle">Hívási statisztikák adatai</string>
+
+    <string name="call_stats">Hívás statisztikák</string>
+    <string name="call_stats_refresh">Frissítés</string>
+    <string name="activity_title_call_stats">Hívás statisztikák</string>
+
+    <string name="call_stats_nav_all">Összes</string>
+    <string name="call_stats_nav_incoming">Bejövő</string>
+    <string name="call_stats_nav_outgoing">Kimenő</string>
+    <string name="call_stats_nav_missed">Nem fogadott</string>
+    <string name="call_stats_incoming">Bejövő: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">Kimenő: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">Nem fogadott</string>
+    <string name="call_stats_missed_percent">Nem fogadott: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_blacklist">Feketelista</string>
+    <string name="call_stats_blacklist_percent">Feketelista: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">Teljes: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">Teljes: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">Kezdő dátum</string>
+    <string name="call_stats_filter_to">Vége dátum</string>
+    <string name="call_stats_filter_picker_title">Szűrőtartomány</string>
+
+    <string name="date_quick_selection">Gyors választás</string>
+    <string name="date_qs_currentmonth">Jelenlegi hónap</string>
+    <string name="date_qs_currentquarter">Jelenlegi negyedév</string>
+    <string name="date_qs_currentyear">Jelenlegi év</string>
+    <string name="date_qs_lastweek">Múlt hét</string>
+    <string name="date_qs_lastmonth">Múlt hónap</string>
+    <string name="date_qs_lastquarter">Elmúlt negyedév</string>
+    <string name="date_qs_lastyear">Múlt év</string>
+
+    <string name="call_stats_date_filter">Időtartomány beállítása</string>
+    <string name="call_stats_reset_filter">Időtartomány alaphelyzetbe</string>
+    <string name="call_stats_sort_by_duration">Rendezés hívás időtartama szerint</string>
+    <string name="call_stats_sort_by_count">Rendezés hívás száma szerint</string>
+
+    <string name="menu_add_to_blacklist">Add a feketelistához</string>
+    <string name="toast_added_to_blacklist">%s hozzáadva a feketelistához.</string>
+
+    <!--  for speed dial -->
+    <string name="speed_dial_settings">Gyors tárcsázó beállítások</string>
+    <string name="speed_dial_not_set">(nincs beállítva)</string>
+    <string name="speed_dial_replace">Cserél</string>
+    <string name="speed_dial_delete">Törlés</string>
+    <string name="speed_dial_unassigned_dialog_title">Hozzárendelés</string>
+    <string name="speed_dial_unassigned_dialog_message">Nincs gyorshívás hozzárendelve a számhoz \'<xliff:g id="number">%s</xliff:g>\'. Hozzárendeled most?</string>
+    <string name="dialog_speed_dial_airplane_mode_message">Gyors tárcsázáshoz elösszőr kapcsold ki a repülőgép módot.</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+
+    <!-- The string used to represent an unknown location for a phone number in the call log
+       Do not translate. -->
+    <string name="call_log_empty_geocode" translatable="false"></string>
+
+    <string name="incall_vibration_category_title">Hívás közben rezeg</string>
+    <string name="incall_vibrate_outgoing_title">Rezeg fogadásnál</string>
+    <string name="incall_vibrate_hangup_title">Rezgés bontásnál</string>
+    <string name="incall_vibrate_45_title">Rezgés mindne percben</string>
+    <string name="incall_vibrate_45_summary">Rezeg minden 45 mp-ben, jelezve a megkezdett percet kimenő hívásnál</string>
+
+    <string name="detailed_incall_info_title">Részletes hívó információ</string>
+    <string name="detailed_incall_info_summary">További információk megjelenítése a hívóról, a bejövő hívás képernyőn</string>
+
+    <string name="video_call">Video hívás</string>
+    <string name="call_duration_active">Aktív időtartam:</string>
+    <string name="call_duration_call_out">Hívás időtartam:</string>
+
+    <string name="call_log_show_all_slots">Összes SIM</string>
+    <string name="call_log_all_calls_header">Összes hívás</string>
+    <string name="calllog_search_hint">Hívás napló keresés</string>
+
+    <string name="msim_ime_dialog_title">Eszköz azonosítója</string>
+
+    <!-- Filter by blacklist calls option -->
+    <string name="call_log_blacklist_header">Feketelistás hívások csak</string>
+</resources>
