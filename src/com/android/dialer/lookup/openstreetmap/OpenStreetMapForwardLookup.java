@@ -50,7 +50,7 @@ public class OpenStreetMapForwardLookup extends ForwardLookup {
             "https://overpass-api.de/api/interpreter";
 
     private static final String LOOKUP_QUERY =
-            "[out:json];node[name~\"%s\"][phone](around:%d,%f,%f);out body;";
+            "[out:json];node[name~\"%s\"][phone]({{bbox}}%d,%f,%f);out body;";
 
     private static final String RESULT_ELEMENTS = "elements";
     private static final String RESULT_TAGS = "tags";
