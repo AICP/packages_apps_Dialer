@@ -38,6 +38,8 @@ import com.android.dialer.app.DialtactsActivity;
 import com.android.dialer.app.R;
 import com.android.dialer.app.calllog.ClearCallLogDialog.Listener;
 import com.android.dialer.calldetails.CallDetailsActivity;
+import com.android.dialer.callstats.CallStatsFragment;
+import com.android.dialer.callstats.DoubleDatePickerDialog;
 import com.android.dialer.compat.AppCompatConstants;
 import com.android.dialer.database.CallLogQueryHandler;
 import com.android.dialer.enrichedcall.EnrichedCallComponent;
@@ -50,11 +52,12 @@ import com.android.dialer.util.TransactionSafeActivity;
 import com.android.dialer.util.ViewUtil;
 
 /** Activity for viewing call history. */
-public class CallLogActivity extends TransactionSafeActivity
-    implements ViewPager.OnPageChangeListener, Listener {
+public class CallLogActivity extends TransactionSafeActivity implements
+    ViewPager.OnPageChangeListener, DoubleDatePickerDialog.OnDateSetListener, Listener {
 
   private static final int TAB_INDEX_ALL = 0;
   private static final int TAB_INDEX_MISSED = 1;
+  private static final int TAB_INDEX_STATS = 2;
   private static final int TAB_INDEX_COUNT = 2;
 
   private static final int TAB_INDEX_MSIM = 0;
@@ -63,6 +66,7 @@ public class CallLogActivity extends TransactionSafeActivity
   private ViewPagerTabs mViewPagerTabs;
   private FragmentPagerAdapter mViewPagerAdapter;
   private CallLogFragment mAllCallsFragment;
+  private CallStatsFragment mStatsFragment;
   private MSimCallLogFragment mMSimCallsFragment;
   private String[] mTabTitles;
   private boolean mIsResumed;
@@ -99,6 +103,7 @@ public class CallLogActivity extends TransactionSafeActivity
     mTabTitles = new String[TAB_INDEX_COUNT];
     mTabTitles[0] = getString(R.string.call_log_all_title);
     mTabTitles[1] = getString(R.string.call_log_missed_title);
+    mTabTitles[2] = getString(R.string.call_log_stats_title);
 
     mViewPager = (ViewPager) findViewById(R.id.call_log_pager);
 
@@ -193,6 +198,15 @@ public class CallLogActivity extends TransactionSafeActivity
     mViewPagerTabs.onPageScrollStateChanged(state);
   }
 
+  @Override
+  public void onDateSet(long from, long to) {
+    switch (mViewPager.getCurrentItem()) {
+      case TAB_INDEX_STATS:
+        mStatsFragment.onDateSet(from, to);
+        break;
+    }
+  }
+
   private void sendScreenViewForChildFragment() {
     Logger.get(this).logScreenView(ScreenEvent.Type.CALL_LOG_FILTER, this);
   }
@@ -270,6 +284,8 @@ public class CallLogActivity extends TransactionSafeActivity
               CallLogQueryHandler.CALL_TYPE_ALL, true /* isCallLogActivity */);
         case TAB_INDEX_MISSED:
           return new CallLogFragment(Calls.MISSED_TYPE, true /* isCallLogActivity */);
+        case TAB_INDEX_STATS:
+          return new CallStatsFragment();
         default:
           throw new IllegalStateException("No fragment at position " + position);
       }
@@ -277,9 +293,14 @@ public class CallLogActivity extends TransactionSafeActivity
 
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-      final CallLogFragment fragment = (CallLogFragment) super.instantiateItem(container, position);
-      if (position == TAB_INDEX_ALL) {
-          mAllCallsFragment = fragment;
+      final Object fragment = super.instantiateItem(container, position);
+      switch (getRtlPosition(position)) {
+        case TAB_INDEX_ALL:
+          mAllCallsFragment = (CallLogFragment) fragment;
+          break;
+        case TAB_INDEX_STATS:
+          mStatsFragment = (CallStatsFragment) fragment;
+          break;
       }
       return fragment;
     }
