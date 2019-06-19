@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "be076fc0_9f2f8ff1",
+        "filename": "java/com/android/incallui/ThemeColorManager.java",
+        "patchSetId": 2
+      },
+      "lineNbr": 73,
+      "author": {
+        "id": 6
+      },
+      "writtenOn": "2019-06-19T12:05:20Z",
+      "side": 1,
+      "message": "Whitespace\nAnd the default is enabled here while in the preference file, it\u0027s set to false. Change this to false too.",
+      "revId": "b01f182066aaa73a9c6ed4b68300adc3bf64eb51",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
