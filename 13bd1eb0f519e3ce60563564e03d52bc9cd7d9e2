@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "61b8845e_7590cf1f",
+        "filename": "java/com/android/incallui/InCallDndHandler.java",
+        "patchSetId": 4
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2019-10-08T15:51:29Z",
+      "side": 1,
+      "message": "http://haste.aicp-rom.com/muwutaxufo.coffeescript",
+      "range": {
+        "startLine": 62,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 72
+      },
+      "revId": "13bd1eb0f519e3ce60563564e03d52bc9cd7d9e2",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b",
+      "unresolved": true
+    }
+  ]
+}
