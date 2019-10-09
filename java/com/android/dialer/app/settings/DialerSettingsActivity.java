@@ -22,6 +22,7 @@ import android.net.Uri;
 import android.os.Build.VERSION;
 import android.os.Build.VERSION_CODES;
 import android.os.Bundle;
+import android.os.PowerManager;
 import android.os.UserManager;
 import android.preference.PreferenceManager;
 import android.provider.Settings;
@@ -116,6 +117,14 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
     TelephonyManager telephonyManager =
         (TelephonyManager) getSystemService(Context.TELEPHONY_SERVICE);
 
+    if (isSpeakerAllowed()) {
+        Header speakerSettingsHeader = new Header();
+        speakerSettingsHeader.titleRes = R.string.speaker_settings_label;
+        speakerSettingsHeader.fragment = SpeakerSettingsFragment.class.getName();
+        speakerSettingsHeader.id = R.id.settings_header_proximity_speakerphone;
+        target.add(speakerSettingsHeader);
+    }
+
     // "Call Settings" (full settings) is shown if the current user is primary user and there
     // is only one SIM. Otherwise, "Calling accounts" is shown.
     boolean isPrimaryUser = isPrimaryUser();
@@ -172,6 +181,11 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
           new Intent("com.android.dialer.app.settings.SHOW_ASSISTED_DIALING_SETTINGS");
       target.add(assistedDialingSettingsHeader);
     }
+
+    Header OtherSettingsHeader = new Header();
+    OtherSettingsHeader.titleRes = R.string.other_settings_label;
+    OtherSettingsHeader.fragment = OtherSettingsFragment.class.getName();
+    target.add(OtherSettingsHeader);
 
     if (showAbout()) {
       Header aboutPhoneHeader = new Header();
@@ -316,5 +330,14 @@ public class DialerSettingsActivity extends AppCompatPreferenceActivity {
   /** @return Whether the current user is the primary user. */
   private boolean isPrimaryUser() {
     return getSystemService(UserManager.class).isSystemUser();
+  }
+
+  /**
+  * @return Whether proximity speakerphone is allowed
+  */
+  private boolean isSpeakerAllowed() {
+    PowerManager pm = (PowerManager) this.getSystemService(Context.POWER_SERVICE);
+    return pm.isWakeLockLevelSupported(PowerManager.PROXIMITY_SCREEN_OFF_WAKE_LOCK)
+    && getResources().getBoolean(R.bool.config_enabled_speakerprox);
   }
 }
