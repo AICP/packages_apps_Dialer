@@ -274,7 +274,7 @@ public class PhoneCallDetailsHelper
     }
 
     // Bold if not read
-    Typeface typeface = details.isRead ? Typeface.SANS_SERIF : Typeface.DEFAULT_BOLD;
+    Typeface typeface = details.isRead ? null : Typeface.DEFAULT_BOLD;
     views.nameView.setTypeface(typeface);
     views.voicemailTranscriptionView.setTypeface(typeface);
     views.voicemailTranscriptionBrandingView.setTypeface(typeface);
