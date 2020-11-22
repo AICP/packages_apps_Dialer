@@ -44,7 +44,13 @@
     <string name="incall_dnd_dialog_message">Aby włączyć tryb \"Nie przeszkadzać\", aplikacja \"Telefon\" musi otrzymać uprawnienia do kontrolowania statusu \"Nie przeszkadzać\".\nZezwól na to.</string>
     <string name="allow">Zezwól</string>
     <string name="deny">Odmów</string>
+    <string name="prox_auto_answer_incall_only_title">Automatyczne odbieranie tylko w rozmowie</string>
     <string name="prox_auto_answer_incall_only_summary">Użyj czujnika zbliżeniowego do automatycznego odbierania</string>
+    <string name="auto_answer_call_title">Auto odbieranie</string>
+    <string name="auto_answer_call_summary">Automatycznie odbieraj połączenie przychodzące po podłączeniu przez BT lub przewodowy zestaw słuchawkowy</string>
+    <string name="auto_answer_delay_title">Opóźnienie automatycznej odpowiedzi</string>
+    <string name="auto_answer_dialog_title">Określ opóźnienie w (ms)</string>
+    <string name="auto_answer_delay_summary">Automatyczna odpowiedź zostanie aktywowana za <xliff:g id="number">%d</xliff:g> ms</string>
     <string name="call_recording_category_title">Nagrywanie połączenia</string>
     <string name="call_recording_format">Format audio</string>
     <string name="auto_call_recording_title">Automatyczne nagrywanie połączeń</string>
