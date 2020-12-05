@@ -17,6 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="other_settings_label">기타 설정</string>
+    <string name="incall_vibration_category_title">통화 중 진동</string>
+    <string name="incall_vibrate_outgoing_title">수신시 진동</string>
+    <string name="incall_vibrate_call_waiting_title">통화 대기 중에 진동</string>
+    <string name="incall_vibrate_hangup_title">통화 종료 시 진동</string>
+    <string name="incall_vibrate_45_title">매 분 마다 진동으로 알림</string>
+    <string name="incall_vibrate_45_summary">내가 건 통화 중에는 45초 마다 진동으로 알림</string>
     <string name="smart_category_title">다른 옵션</string>
     <string name="smart_mute_title">스마트 음소거</string>
     <string name="smart_mute_summary">디바이스를 뒤집어 수신전화 벨소리 끄기</string>
@@ -33,7 +39,24 @@
     <string name="enable_post_call_summary">전화 알림을 화면 하단에 표시하도록 설정</string>
     <string name="disable_proximity_sensor_title">근접 센서 사용 불가</string>
     <string name="disable_proximity_sensor_summary">근접 센서를 기준으로 터치 스크린을 끄고 통화 상태를 표시하지 마십시오.</string>
+    <string name="incall_category_title">통화 중</string>
+    <string name="incall_enable_dnd_title">통화 중 방해 금지 모드 사용</string>
+    <string name="incall_dnd_dialog_message">방해 금지 모드를 사용하려면 앱이 방해 금지 모드를 제어할 수 있어야 합니다.\n권한을 허용해 주세요.</string>
+    <string name="allow">허용</string>
+    <string name="deny">거부</string>
+    <string name="prox_auto_answer_incall_only_title">통화 중 자동 응답</string>
+    <string name="prox_auto_answer_incall_only_summary">자동 응답시 근접 센서 사용</string>
+    <string name="auto_answer_call_title">자동 응답</string>
+    <string name="auto_answer_call_summary">BT 또는 유선 헤드셋을 통해 연결된 경우 수신 전화 자동 응답</string>
+    <string name="auto_answer_delay_title">자동 응답 지연</string>
+    <string name="auto_answer_dialog_title">지연 시간을 (ms)로 지정하십시오</string>
+    <string name="auto_answer_delay_summary">자동 응답이에서 활성화됩니다·<xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="call_recording_category_title">통화 녹음</string>
+    <string name="call_recording_format">오디오 형식</string>
     <string name="auto_call_recording_title">자동 통화 녹음</string>
+    <string name="call_via">통화 방법</string>
+    <string name="call_via_dialog_title">다음 앱으로 통화\u2026</string>
+    <string name="call_log_stats_title">기록</string>
     <string name="fullscreen_caller_photo_title">전체 화면 사진</string>
     <string name="fullscreen_caller_photo_summary">수발신 통화에 전체 화면 사진 표시</string>
     <string name="fullscreen_caller_photo_message">사용하려면 응용 프로그램을 다시 시작해야합니다.</string>

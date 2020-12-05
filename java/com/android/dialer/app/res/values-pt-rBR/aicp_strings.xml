@@ -17,6 +17,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="other_settings_label">Outras configurações</string>
+    <string name="incall_vibration_category_title">Vibrar durante a chamada</string>
+    <string name="incall_vibrate_outgoing_title">Vibrar ao atender</string>
+    <string name="incall_vibrate_call_waiting_title">Vibrar na chamada em espera</string>
+    <string name="incall_vibrate_hangup_title">Vibrar quando terminar chamada</string>
+    <string name="incall_vibrate_45_title">Vibrar a cada minuto</string>
+    <string name="incall_vibrate_45_summary">Vibrar aos 45 segundos de cada minuto durante chamadas efetuadas</string>
     <string name="smart_category_title">Outras opções</string>
     <string name="smart_mute_title">Sem som inteligente</string>
     <string name="smart_mute_summary">Silenciar a chamada de entrada, lançando o dispositivo</string>
@@ -33,7 +39,24 @@
     <string name="enable_post_call_summary">Ativar notificações pós-chamada na parte inferior da tela</string>
     <string name="disable_proximity_sensor_title">Desativar sensor de proximidade</string>
     <string name="disable_proximity_sensor_summary">Não desative o touchscreen e exibir na chamada com base no sensor de proximidade</string>
+    <string name="incall_category_title">Em chamada</string>
+    <string name="incall_enable_dnd_title">Ativar o Não Perturbe durante chamadas</string>
+    <string name="incall_dnd_dialog_message">Para ativar o modo Não Perturbe, o aplicativo Telefone precisa ter permissão para controlar o modo Não Perturbe.\nPor favor, conceda-a.</string>
+    <string name="allow">Permitir</string>
+    <string name="deny">Recusar</string>
+    <string name="prox_auto_answer_incall_only_title">Atender automaticamente apenas em chamadas</string>
+    <string name="prox_auto_answer_incall_only_summary">Use sensor de proximidade para resposta automática</string>
+    <string name="auto_answer_call_title">Atender automaticamente</string>
+    <string name="auto_answer_call_summary">Atender automaticamente as chamadas recebidas quando conectado via fone de ouvido BT ou com fio</string>
+    <string name="auto_answer_delay_title">Resposta automática atrasada</string>
+    <string name="auto_answer_dialog_title">Especifique o atraso em (ms)</string>
+    <string name="auto_answer_delay_summary">Resposta automática será ativada em <xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="call_recording_category_title">Gravação de chamada</string>
+    <string name="call_recording_format">Formato de áudio</string>
     <string name="auto_call_recording_title">Gravação automática de chamadas</string>
+    <string name="call_via">Chamar através de</string>
+    <string name="call_via_dialog_title">Chamar através de\u2026</string>
+    <string name="call_log_stats_title">Estatísticas</string>
     <string name="fullscreen_caller_photo_title">Modo de tela cheia</string>
     <string name="fullscreen_caller_photo_summary">Exibir modo de tela cheia nas chamadas recebidas e efetuadas</string>
     <string name="fullscreen_caller_photo_message">Para aplicar, você deve reiniciar o aplicativo</string>
