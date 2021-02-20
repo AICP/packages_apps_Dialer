@@ -16,16 +16,33 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="other_settings_label">ڕێکخستنەکانیتر</string>
-    <string name="incall_vibrate_outgoing_title">له‌رینه‌وه‌ له‌کاتی وه‌ڵامدانەوە</string>
-    <string name="smart_category_title">بژاردەکانیتر</string>
+    <string name="other_settings_label">ڕێکخستنەکانی تر</string>
+    <string name="incall_vibration_category_title">له‌رزین له‌نێو-په‌یوه‌ندی</string>
+    <string name="incall_vibrate_outgoing_title">لەرزین له‌کاتی وه‌ڵامدانەوە</string>
+    <string name="incall_vibrate_call_waiting_title">لەرزین لەچاوەڕوانی وڵام</string>
+    <string name="incall_vibrate_45_title">لەرزین هەموو خولەکێک</string>
+    <string name="incall_vibrate_45_summary">لەرینەوە لەهەر 45 چرکەیەکی کاتی ڕۆیشتنی پەیوەندی</string>
+    <string name="smart_category_title">بژاردەکانی تر</string>
     <string name="smart_mute_title">کپکردنی زیرەک</string>
     <string name="smart_mute_summary">کپکردنی پەیوەندی هاتوو بەهەڵگەڕانەوەی ئامێر</string>
+    <string name="speaker_settings_label">نزیکێتی بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_title">نزیکێتی خۆکاری بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_summary">چالاککردنی خۆکاری بڵندگۆی مۆبایل کاتێ مۆبایلەکە دورخرایەوە لە گوێ-ت</string>
     <string name="prox_auto_speaker_delay_title">سستی بڵندگۆی مۆبایل</string>
     <string name="prox_auto_speaker_delay_dialog_title">سستی بڵندگۆی مۆبایل لە (ms)</string>
     <string name="prox_auto_speaker_delay_summary">بڵندگۆی مۆبایل چالاک دەکرێ لەدوای <xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="prox_auto_speaker_incall_only_title">تەنیا لەکاتی پەیوەندی</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">لە پەیوەندی ڕۆیشتوودا، تەنیا گوێگر چالاک ئەبێت دوای وەرگرتنی وەڵام</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">تەنیا گوێگر چالاک ئەبێت لەکاتی هەموو وەڵامێکدا (بنەڕەتی)</string>
+    <string name="enable_post_call_title">ئاگادارکردنەوە لەبەشی خوارەوە</string>
+    <string name="enable_post_call_summary">چالاککردنی ئاگادارکردنەوەکان لەبەشی خوارەوەی شاشەدا لەکاتی پەیوەندی</string>
+    <string name="disable_proximity_sensor_title">نا چالاککردنی هەستەوەری نزیکی</string>
+    <string name="disable_proximity_sensor_summary">لەکار نەخستنی دەستلێدانی شاشە و بەشە سەرەکیەکان لەکاتی پەیوەندی بەپێی هەستەوەرەکان</string>
+    <string name="incall_category_title">له‌-په‌یوه‌ندی</string>
     <string name="incall_enable_dnd_title">کاراکردنی هەراسانم مەکە لەکاتی پەیوەندیدا</string>
     <string name="incall_dnd_dialog_message">بۆ چالاککردنی هەراسانم مەکە، ئەپی پەیوەندی پێویستی بە پێدانی دەسەڵاتە بۆ کۆنتڕۆڵکردنی ڕەوشی هەراسانم مەکە. \n تکایە ڕێی پێبدە.</string>
+    <string name="allow">ڕێدان</string>
+    <string name="deny">ڕەفز</string>
     <string name="prox_auto_answer_incall_only_title">وڵامدانەوەی خۆکاری تەنها لە پەیوەندیدا</string>
     <string name="prox_auto_answer_incall_only_summary">بەکارهێنانی هەستەوەری نزیکی بۆ وڵامدانەوەی خۆکار</string>
     <string name="auto_answer_call_title">وڵامدانەوەی خۆکاری</string>
@@ -33,6 +50,12 @@
     <string name="auto_answer_delay_title">سستی وڵامدانەوەی خۆکار</string>
     <string name="auto_answer_delay_summary">وڵامدانەوەی خۆکاری چالاک ئەبێ دوای <xliff:g id="number">%d</xliff:g> ms</string>
     <string name="call_recording_category_title">پەیوەندی تۆمارکردن</string>
+    <string name="call_recording_format">جۆری دەنگ</string>
     <string name="auto_call_recording_title">تۆمارکردنی پەیوەندی خۆکاری</string>
-    <string name="fullscreen_caller_photo_message">بۆ بەکارهێنان، پێویستە ئەپەکە دووبارە بکەیتەوە</string>
+    <string name="call_via">پەیوەندی لەڕێی</string>
+    <string name="call_via_dialog_title">پەیوەندی ئەکرێ لەڕێی \u2026</string>
+    <string name="call_log_stats_title">ئامارەکان</string>
+    <string name="fullscreen_caller_photo_title">وێنەی ڕوونماپڕ</string>
+    <string name="fullscreen_caller_photo_summary">پیشاندانی وێنە لەتەواوی ڕوونما لەکاتی پەیوەندی هاتوو یان ڕۆیشتوو</string>
+    <string name="fullscreen_caller_photo_message">بۆ بەکارهێنان، پێویستە ئەپەکە داگیرسێنیتەوە</string>
 </resources>
