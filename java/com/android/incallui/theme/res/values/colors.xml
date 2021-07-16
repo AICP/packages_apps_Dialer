@@ -53,15 +53,15 @@
     <item>@color/dndndn</item>
   </array>
 
-  <color name="incall_background_gradient_top">#E91141BB</color>
-  <color name="incall_background_gradient_middle">#E91141BB</color>
-  <color name="incall_background_gradient_bottom">#CC229FEB</color>
+  <color name="incall_background_gradient_top">@color/dndndn</color>
+  <color name="incall_background_gradient_middle">@color/dndndn</color>
+  <color name="incall_background_gradient_bottom">@color/dndndn</color>
 
-  <color name="incall_background_multiwindow">#E91141BB</color>
+  <color name="incall_background_multiwindow">@color/dndndn</color>
 
-  <color name="incall_background_gradient_spam_top">#E5A30B0B</color>
-  <color name="incall_background_gradient_spam_middle">#D6C01111</color>
-  <color name="incall_background_gradient_spam_bottom">#B8E55135</color>
+  <color name="incall_background_gradient_spam_top">@color/dndndn</color>
+  <color name="incall_background_gradient_spam_middle">@color/dndndn</color>
+  <color name="incall_background_gradient_spam_bottom">@color/dndndn</color>
 
-  <color name="incall_background_multiwindow_spam">#E9C22E2E</color>
+  <color name="incall_background_multiwindow_spam">@color/dndndn</color>
 </resources>
