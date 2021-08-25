@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+     Copyright (C) 2018 AICP ROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="other_settings_label">その他の設定</string>
+    <string name="incall_vibration_category_title">通話中の振動</string>
+    <string name="incall_vibrate_outgoing_title">着信応答時に振動</string>
+    <string name="incall_vibrate_call_waiting_title">割込通話時に振動</string>
+    <string name="incall_vibrate_hangup_title">通話終了時に振動</string>
+    <string name="incall_vibrate_45_title">1分ごとに振動</string>
+    <string name="incall_vibrate_45_summary">発信中に45秒ごとに振動する</string>
+    <string name="smart_category_title">その他のオプション</string>
+    <string name="smart_mute_title">スマートミュート</string>
+    <string name="smart_mute_summary">端末を裏返しにして着信をミュートする</string>
+    <string name="speaker_settings_label">近接スピーカーフォン</string>
+    <string name="prox_auto_speaker_title">自動近接スピーカーフォン</string>
+    <string name="prox_auto_speaker_summary">端末を耳から離した時にスピーカーフォンを自動的に有効化する</string>
+    <string name="prox_auto_speaker_delay_title">スピーカーフォンの遅延</string>
+    <string name="prox_auto_speaker_delay_dialog_title">スピーカーフォンの遅延 (ミリ秒)</string>
+    <string name="prox_auto_speaker_delay_summary"><xliff:g id="number">%d</xliff:g>ミリ秒でスピーカーフォンが有効化されます</string>
+    <string name="prox_auto_speaker_incall_only_title">通話中のみ</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">発信時、受信側が応答した後にスピーカーがアクティブになります</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">スピーカーは通話時の全ての状態でアクティブになります (既定)</string>
+    <string name="enable_post_call_title">通話のスナックバーを表示</string>
+    <string name="enable_post_call_summary">画面の下部に通話の通知を表示する</string>
+    <string name="disable_proximity_sensor_title">近接センサーを無効化</string>
+    <string name="disable_proximity_sensor_summary">近接センサーに基づいて通話中にタッチパネルと画面を OFF にしない</string>
+    <string name="prox_auto_answer_incall_only_title">自動応答</string>
+    <string name="prox_auto_answer_incall_only_summary">自動応答に近接センサーを使う</string>
+    <string name="auto_answer_call_title">自動応答</string>
+    <string name="auto_answer_call_summary">自動応答に Bluetooth や有線ヘッドセットを使う</string>
+    <string name="auto_answer_delay_title">自動応答の遅延</string>
+    <string name="auto_answer_dialog_title">自動応答の遅延 (ミリ秒)</string>
+    <string name="auto_answer_delay_summary">自動応答は<xliff:g id="number">%d</xliff:g>ミリ秒後に有効化されます</string>
+</resources>
