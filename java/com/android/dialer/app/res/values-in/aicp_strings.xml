@@ -35,7 +35,15 @@
     <string name="prox_auto_speaker_incall_only_title">Hanya saat sedang dalam panggilan</string>
     <string name="prox_auto_speaker_incall_only_summary_on">Pada panggilan keluar, pendengar hanya akan aktif setelah pihak penerima menjawab</string>
     <string name="prox_auto_speaker_incall_only_summary_off">Pendengar akan aktif selama semua status panggilan offhook (standar)</string>
+    <string name="enable_post_call_title">Pos panggilan mengambang</string>
+    <string name="enable_post_call_summary">Aktifkan notifikasi panggilan pos di bagian bawah layar</string>
     <string name="disable_proximity_sensor_title">Nonaktifkan sensor jarak</string>
+    <string name="disable_proximity_sensor_summary">Jangan matikan layar sentuh dan tampilan berdasarkan Sensor Jarak</string>
     <string name="prox_auto_answer_incall_only_title">Jawab otomatis</string>
     <string name="prox_auto_answer_incall_only_summary">Gunakan sensor proximity untuk jawab otomatis</string>
+    <string name="auto_answer_call_title">Jawab otomatis</string>
+    <string name="auto_answer_call_summary">Gunakan jawab otomatis dengan BT atau headset kabel yang terhubung</string>
+    <string name="auto_answer_delay_title">Penundaan jawab otomatis</string>
+    <string name="auto_answer_dialog_title">Penundaan jawab otomatis dalam (md)</string>
+    <string name="auto_answer_delay_summary">Jawab otomatis akan aktif dalam <xliff:g id="number">%d</xliff:g> md</string>
 </resources>

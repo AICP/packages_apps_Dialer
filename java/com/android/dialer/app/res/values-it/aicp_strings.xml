@@ -41,4 +41,9 @@
     <string name="disable_proximity_sensor_summary">Non disattivare il touchscreen e visualizzare in chiamata in base al sensore di prossimità</string>
     <string name="prox_auto_answer_incall_only_title">Risposta automatica</string>
     <string name="prox_auto_answer_incall_only_summary">Usa il sensore di prossimità per la risposta automatica</string>
+    <string name="auto_answer_call_title">Risposta automatica</string>
+    <string name="auto_answer_call_summary">Usa la risposta automatica con cuffie connesse via BT o filo</string>
+    <string name="auto_answer_delay_title">Ritardo della risposta automatica</string>
+    <string name="auto_answer_dialog_title">Ritardo della risposta automatica in (ms)</string>
+    <string name="auto_answer_delay_summary">La risposta automatica sarà attivata tra <xliff:g id="number">%d</xliff:g> ms</string>
 </resources>

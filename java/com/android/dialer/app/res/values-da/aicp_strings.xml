@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+     Copyright (C) 2018 AICP ROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="other_settings_label">Andre indstillinger</string>
+    <string name="incall_vibration_category_title">Vibration under opkald</string>
+    <string name="incall_vibrate_outgoing_title">Vibrér ved svar</string>
+    <string name="incall_vibrate_call_waiting_title">Vibrér ved banke på</string>
+    <string name="incall_vibrate_hangup_title">Vibrér når der lægges på</string>
+    <string name="incall_vibrate_45_title">Vibrér en gang i minuttet</string>
+    <string name="incall_vibrate_45_summary">Vibrerer ved 45-sekundmærket i hvert minut, under udgående opkald</string>
+    <string name="smart_category_title">Andre valgmuligheder</string>
+    <string name="smart_mute_title">Smart lydløs</string>
+    <string name="smart_mute_summary">Gør det indgående opkald lydløst, ved at vende enheden</string>
+    <string name="speaker_settings_label">Afstandshøjtaler</string>
+    <string name="prox_auto_speaker_title">Automatisk afstandshøjtaler</string>
+    <string name="prox_auto_speaker_summary">Aktivér automatisk højtaler, når din telefon bliver fjernet fra dit øre</string>
+    <string name="prox_auto_speaker_delay_title">Højtalerforsinkelse</string>
+    <string name="prox_auto_speaker_delay_dialog_title">Højtalerforsinkelse i (ms)</string>
+    <string name="prox_auto_speaker_delay_summary">Højtaler vil blive aktiveret om <xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="prox_auto_speaker_incall_only_title">Kun under opkald</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">Ved udgående opkald, vil lytteren først blive aktiv, efter modtageren svarer</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">Lytter vil blive aktiv under alle offhook-opkaldstilstande (standard)</string>
+    <string name="enable_post_call_title">Notifikation efter opkald</string>
+    <string name="enable_post_call_summary">Aktivér notifikationer efter opkald, nederst på skærm</string>
+    <string name="disable_proximity_sensor_title">Deaktivér afstandssensor</string>
+    <string name="disable_proximity_sensor_summary">Sluk ikke berøringsfølsomhed og skærm i opkald, baseret på afstandssensor</string>
+    <string name="prox_auto_answer_incall_only_title">Automatisk svar</string>
+    <string name="prox_auto_answer_incall_only_summary">Brug afstandssensor til automatisk svar</string>
+    <string name="auto_answer_call_title">Automatisk svar</string>
+    <string name="auto_answer_call_summary">Brug automatisk svar, med tilsluttet BT- eller Kablet hovedsæt</string>
+    <string name="auto_answer_delay_title">Forsinkelse på automatisk svar</string>
+    <string name="auto_answer_dialog_title">Forsinkelse på automatisk svar om (ms)</string>
+    <string name="auto_answer_delay_summary">Automatisk svar vil blive aktiveret om <xliff:g id="number">%d</xliff:g> ms</string>
+</resources>
