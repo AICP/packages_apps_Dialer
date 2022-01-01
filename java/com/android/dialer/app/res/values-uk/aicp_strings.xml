@@ -19,4 +19,9 @@
     <string name="smart_category_title">Інші налаштування</string>
     <string name="smart_mute_title">Розумне приглушення</string>
     <string name="smart_mute_summary">Приглушити вхідний дзвінок, перевернувши телефон</string>
+    <string name="auto_answer_call_title">Автовідповідач</string>
+    <string name="auto_answer_call_summary">Використовувати автовідповідач з під\'єднаною BT або провідною гарнітурою</string>
+    <string name="auto_answer_delay_title">Затримка автовідповідача</string>
+    <string name="auto_answer_dialog_title">Завтримка автовідповідача (мс)</string>
+    <string name="auto_answer_delay_summary">Автовідповідач увімкнеться через <xliff:g id="number">%d</xliff:g> мс</string>
 </resources>

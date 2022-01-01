@@ -41,4 +41,9 @@
     <string name="disable_proximity_sensor_summary">Nie wyłączaj ekranu dotykowego i nie wyświetlaj rozmów w oparciu o czujnik zbliżeniowy</string>
     <string name="prox_auto_answer_incall_only_title">Auto odbieranie</string>
     <string name="prox_auto_answer_incall_only_summary">Użyj czujnika zbliżeniowego do automatycznego odbierania</string>
+    <string name="auto_answer_call_title">Automatyczna odpowiedź</string>
+    <string name="auto_answer_call_summary">Automatycznie odbieranie za pomocą BT lub bezprzewodowego zestawu słuchawkowego</string>
+    <string name="auto_answer_delay_title">Opóźnienie automatycznej odpowiedzi</string>
+    <string name="auto_answer_dialog_title">Opóźnienie autoodpowiedzi w (ms)</string>
+    <string name="auto_answer_delay_summary">Automatyczna odpowiedź zostanie aktywowana w ciągu  <xliff:g id="number">%d</xliff:g> ms</string>
 </resources>
