@@ -25,6 +25,9 @@
     <string name="smart_category_title">بژاردەکانیتر</string>
     <string name="smart_mute_title">کپکردنی زیرەک</string>
     <string name="smart_mute_summary">کپکردنی پەیوەندی هاتوو بەهەڵگەڕانەوەی ئامێر</string>
+    <string name="speaker_settings_label">نزیکێتی بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_title">نزیکێتی خۆکاری بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_summary">چالاککردنی خۆکاری بڵندگۆی مۆبایل کاتێ مۆبایلەکە دورخرایەوە لە گوێ-ت</string>
     <string name="prox_auto_speaker_delay_title">سستی بڵندگۆی مۆبایل</string>
     <string name="prox_auto_speaker_delay_dialog_title">سستی بڵندگۆی مۆبایل لە (ms)</string>
     <string name="prox_auto_speaker_delay_summary">بڵندگۆی مۆبایل چالاک دەکرێ لەدوای <xliff:g id="number">%d</xliff:g> ms</string>

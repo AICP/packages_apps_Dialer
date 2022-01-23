@@ -16,6 +16,31 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="other_settings_label">Alte setări</string>
+    <string name="incall_vibration_category_title">Vibrare în apel</string>
+    <string name="incall_vibrate_outgoing_title">Vibrare la răspuns</string>
+    <string name="incall_vibrate_call_waiting_title">Vibrare pentru apel în așteptare</string>
+    <string name="incall_vibrate_hangup_title">Vibrare la închidere apel</string>
+    <string name="incall_vibrate_45_title">Vibrează la fiecare minut</string>
+    <string name="incall_vibrate_45_summary">Vibrează în secunda 45 a fiecărui minut în timpul convorbirilor</string>
+    <string name="smart_category_title">Alte opțiuni</string>
+    <string name="smart_mute_title">Mod fără sunet inteligent</string>
+    <string name="smart_mute_summary">Treceți pe mute apelul primit prin rotirea aparatului</string>
+    <string name="speaker_settings_label">Difuzor de proximitate</string>
+    <string name="prox_auto_speaker_title">Comutare la difuzor în funcție de senzorul de proximitate</string>
+    <string name="prox_auto_speaker_summary">Activare automată difuzor atunci când telefonul este îndepărtat de ureche</string>
+    <string name="prox_auto_speaker_delay_title">Întârziere difuzor</string>
+    <string name="prox_auto_speaker_delay_dialog_title">Întârziere difuzor (ms)</string>
+    <string name="prox_auto_speaker_delay_summary">Difuzorul va fi activat în <xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="prox_auto_speaker_incall_only_title">Numai în timp ce este în apel</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">În apelurile efectuate, ascultătorul va deveni activ doar după ce interlocutorul a răspuns</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">Ascultătorul va fi activ în toate stările apelului (implicit)</string>
+    <string name="enable_post_call_title">Bară sumar apeluri</string>
+    <string name="enable_post_call_summary">Activează bara de sumar apeluri în partea de jos a ecranului</string>
+    <string name="disable_proximity_sensor_title">Dezactivează senzorul de proximitate</string>
+    <string name="disable_proximity_sensor_summary">Nu dezactivați ecranul tactil și nu afișați în apel în funcție de senzorul de proximitate</string>
+    <string name="prox_auto_answer_incall_only_title">Răspuns automat</string>
+    <string name="prox_auto_answer_incall_only_summary">Utilizați senzorul de proximitate pentru raspuns automat</string>
     <string name="auto_answer_call_title">Răspuns automat</string>
     <string name="auto_answer_call_summary">Folosiți răspunderea automată cu setul cu cască BT sau prin cablu</string>
     <string name="auto_answer_delay_title">Întârziere răspuns automat</string>

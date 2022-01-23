@@ -20,4 +20,5 @@
     <string name="auto_answer_call_summary">استفاده از پاسخ‌دهی خودکار با هدست بلوتوث و یا سیمی متصل</string>
     <string name="auto_answer_delay_title">تاخیر پاسخ‌دهی خودکار</string>
     <string name="auto_answer_dialog_title">تعویق پاسخ‌دهی خودکار(به ثانیه)</string>
+    <string name="auto_answer_delay_summary">پاسخ دهی خودکار فعال خواهد شد در <xliff:g id="number">%d</xliff:g> ms</string>
 </resources>
