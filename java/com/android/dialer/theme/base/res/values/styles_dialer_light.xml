@@ -29,7 +29,7 @@
   <!-- Style applied to the "Settings" screen.  Keep in sync with SettingsLight in Telephony. -->
   <style name="SettingsStyle" parent="Dialer.ThemeBase.ActionBar">
     <!-- Setting text. -->
-    <item name="android:textColorPrimary">@color/dndn</item>
+    <item name="android:textColorPrimary">@color/accent_color</item>
     <!-- Setting description. -->
     <item name="android:textColorSecondary">@color/settings_text_color_secondary</item>
     <item name="android:windowBackground">@color/dndndn</item>
