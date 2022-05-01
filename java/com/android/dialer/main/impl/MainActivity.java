@@ -72,6 +72,10 @@ public class MainActivity extends TransactionSafeActivity
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
+    setTheme(R.style.MainActivityTheme);
+    getWindow().setStatusBarColor(getColor(R.color.secondary_cust));
+    getWindow().setNavigationBarColor(getColor(R.color.primary_cust));
+
     super.onCreate(savedInstanceState);
     LogUtil.enterBlock("MainActivity.onCreate");
     // If peer was set by the super, don't reset it.
