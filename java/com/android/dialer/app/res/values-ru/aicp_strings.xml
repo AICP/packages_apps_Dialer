@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_vibrate_outgoing_title">Вибрация при ответе</string>
+    <string name="incall_vibrate_call_waiting_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_hangup_title">Вибрировать при отбое</string>
+    <string name="incall_vibrate_45_title">Вибрировать каждую минуту</string>
+    <string name="incall_vibrate_45_summary">Вибрация каждые 45 секунд в течение исходящих звонков</string>
+    <string name="other_settings_label">Прочие настройки</string>
+    <string name="smart_category_title">Другие настройки</string>
+    <string name="smart_mute_title">Умное отключение звука</string>
+    <string name="smart_mute_summary">Отключать звук входящего вызова переворотом устройства</string>
+    <string name="speaker_settings_label">Громкая связь при приближении</string>
+    <string name="prox_auto_speaker_title">Автоматическое включение громкой связи по датчику приближения</string>
+    <string name="prox_auto_speaker_summary">Автоматическое включение громкой связи при отдалении телефона от уха</string>
+    <string name="prox_auto_speaker_delay_title">Задержка включения громкой связи</string>
+    <string name="prox_auto_speaker_delay_dialog_title">Задержка включения громкой связи в (мс)</string>
+    <string name="prox_auto_speaker_delay_summary">Громкая связь будет включена через <xliff:g id="number">%d</xliff:g> мс</string>
+    <string name="prox_auto_speaker_incall_only_title">Только во время входящего вызова</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">При исходящих звонках функция активируется только после ответа на вызов</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">Функция будет активна при любых состояниях вызова (по умолчанию)</string>
+    <string name="enable_post_call_title">Уведомление после звонка</string>
+    <string name="enable_post_call_summary">Включить уведомления после звонка в нижней части экрана</string>
+    <string name="disable_proximity_sensor_title">Выключить датчик приближения</string>
+    <string name="disable_proximity_sensor_summary">Не выключать сенсорный экран и отображать входящий вызов на основе датчика приближения</string>
+    <string name="prox_auto_answer_incall_only_title">Автоответ</string>
+    <string name="prox_auto_answer_incall_only_summary">Использовать датчик приближения для автоответа</string>
+    <string name="auto_answer_call_title">Автоответчик</string>
+    <string name="auto_answer_call_summary">Использовать автоответчик с подключенной BT или проводной гарнитурой</string>
+    <string name="auto_answer_delay_title">Задержка автоответчика</string>
+    <string name="auto_answer_dialog_title">Задержка автоответчика в (мс)</string>
+    <string name="auto_answer_delay_summary">Автоответчик будет активирован через <xliff:g id="number">%d</xliff:g> мс</string>
+</resources>

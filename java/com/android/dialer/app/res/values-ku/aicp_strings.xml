@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013-2014 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="incall_vibrate_outgoing_title">لەرزین له‌کاتی وه‌ڵامدانەوە</string>
+    <string name="incall_vibrate_call_waiting_title">لەرزین لەچاوەڕوانی وڵام</string>
+    <string name="incall_vibrate_45_title">لەرزین هەموو خولەکێک</string>
+    <string name="incall_vibrate_45_summary">لەرینەوە لەهەر 45 چرکەیەکی کاتی ڕۆیشتنی پەیوەندی</string>
+    <string name="other_settings_label">ڕێکخستنەکانیتر</string>
+    <string name="smart_category_title">بژاردەکانیتر</string>
+    <string name="smart_mute_title">کپکردنی زیرەک</string>
+    <string name="smart_mute_summary">کپکردنی پەیوەندی هاتوو بەهەڵگەڕانەوەی ئامێر</string>
+    <string name="speaker_settings_label">نزیکێتی بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_title">نزیکێتی خۆکاری بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_summary">چالاککردنی خۆکاری بڵندگۆی مۆبایل کاتێ مۆبایلەکە دورخرایەوە لە گوێ-ت</string>
+    <string name="prox_auto_speaker_delay_title">سستی بڵندگۆی مۆبایل</string>
+    <string name="prox_auto_speaker_delay_dialog_title">سستی بڵندگۆی مۆبایل لە (ms)</string>
+    <string name="prox_auto_speaker_delay_summary">بڵندگۆی مۆبایل چالاک دەکرێ لەدوای <xliff:g id="number">%d</xliff:g> ms</string>
+    <string name="prox_auto_speaker_incall_only_title">تەنیا لەکاتی پەیوەندی</string>
+    <string name="prox_auto_speaker_incall_only_summary_on">لە پەیوەندی ڕۆیشتوودا، تەنیا گوێگر چالاک ئەبێت دوای وەرگرتنی وەڵام</string>
+    <string name="prox_auto_speaker_incall_only_summary_off">تەنیا گوێگر چالاک ئەبێت لەکاتی هەموو وەڵامێکدا (بنەڕەتی)</string>
+    <string name="enable_post_call_title">ئاگادارکردنەوە لەبەشی خوارەوە</string>
+    <string name="enable_post_call_summary">چالاککردنی ئاگادارکردنەوەکان لەبەشی خوارەوەی شاشەدا لەکاتی پەیوەندی</string>
+    <string name="disable_proximity_sensor_title">نا چالاککردنی هەستەوەری نزیکی</string>
+    <string name="disable_proximity_sensor_summary">لەکار نەخستنی دەستلێدانی شاشە و بەشە سەرەکیەکان لەکاتی پەیوەندی بەپێی هەستەوەرەکان</string>
+    <string name="prox_auto_answer_incall_only_title">وڵامدانەوەی خۆکاری</string>
+    <string name="prox_auto_answer_incall_only_summary">بەکارهێنانی هەستەوەری نزیکی بۆ وڵامدانەوەی خۆکار</string>
+</resources>
