@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "2c2defab_55ce89b0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 3
+      },
+      "writtenOn": "2022-10-28T10:53:42Z",
+      "side": 1,
+      "message": "after this commit, Dialer matches the UI much better.",
+      "revId": "ce27523a25077dffcad6119b4dbdecc0a3d29986",
+      "serverId": "9f904cbb-a964-4fab-a7dc-5cfc4d5c238b"
+    }
+  ]
+}
